@@ -24,8 +24,7 @@ const AdminDashboard = () => {
       <table>
         <thead>
           <tr>
-            <th>Username</th>
-            <th>Role</th>
+         
             <th>Actions</th>
           </tr>
         </thead>
