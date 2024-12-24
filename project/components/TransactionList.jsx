@@ -3,8 +3,7 @@ import { useState } from 'react';
 
 export default function TransactionList() {
   const [transactions] = useState([
-    { id: 1, description: 'Tuition Fee', amount: -500, date: '2024-12-01', type: 'expense' },
-    { id: 2, description: 'Scholarship Award', amount: 200, date: '2024-12-10', type: 'income' },
+  
     { id: 3, description: 'Library Fee', amount: -50, date: '2024-11-20', type: 'expense' },
     { id: 4, description: 'Research Grant', amount: 300, date: '2024-11-15', type: 'income' },
   ]);
@@ -17,8 +16,7 @@ export default function TransactionList() {
       <table className="w-full text-left border-collapse">
         <thead>
           <tr className="bg-gray-200">
-            <th className="p-3">Description</th>
-            <th className="p-3">Amount</th>
+          
             <th className="p-3">Date</th>
             <th className="p-3">Type</th>
           </tr>
